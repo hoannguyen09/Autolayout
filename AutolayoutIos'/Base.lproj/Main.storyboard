@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ASViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Dlm-7n-Qll"/>
+                        <viewControllerLayoutGuide type="bottom" id="bk6-J0-EDH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AD6-R6-qtO">
+                                <rect key="frame" x="20" y="20" width="130" height="255"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.448034297262356" green="1" blue="0.41303032379071891" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="96B-QH-VT2">
+                                <rect key="frame" x="20" y="293" width="280" height="255"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.4480342973" green="1" blue="0.41303032379999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jyx-nb-N4P">
+                                <rect key="frame" x="170" y="20" width="130" height="255"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="0.96302066599584935" blue="0.29716473900449791" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="AD6-R6-qtO" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="20" id="5kj-4F-Uhq"/>
+                            <constraint firstItem="jyx-nb-N4P" firstAttribute="width" secondItem="AD6-R6-qtO" secondAttribute="width" id="9yM-yJ-rHO"/>
+                            <constraint firstAttribute="trailing" secondItem="jyx-nb-N4P" secondAttribute="trailing" constant="20" id="BrG-1E-TF6"/>
+                            <constraint firstItem="96B-QH-VT2" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="Ist-76-3kS"/>
+                            <constraint firstItem="96B-QH-VT2" firstAttribute="height" secondItem="AD6-R6-qtO" secondAttribute="height" id="LGB-yG-EAj"/>
+                            <constraint firstItem="jyx-nb-N4P" firstAttribute="leading" secondItem="AD6-R6-qtO" secondAttribute="trailing" constant="20" id="PCj-aU-q7P"/>
+                            <constraint firstItem="96B-QH-VT2" firstAttribute="height" secondItem="jyx-nb-N4P" secondAttribute="height" id="Qy1-ya-Yqh"/>
+                            <constraint firstItem="AD6-R6-qtO" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="Uax-Ly-kQS"/>
+                            <constraint firstItem="jyx-nb-N4P" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="20" id="a7A-Te-GvG"/>
+                            <constraint firstItem="96B-QH-VT2" firstAttribute="top" secondItem="AD6-R6-qtO" secondAttribute="bottom" constant="18" id="c9Y-84-6xF"/>
+                            <constraint firstAttribute="bottom" secondItem="96B-QH-VT2" secondAttribute="bottom" constant="20" id="hjy-r1-9Bx"/>
+                            <constraint firstAttribute="trailing" secondItem="96B-QH-VT2" secondAttribute="trailing" constant="20" id="wDK-3K-6DF"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
